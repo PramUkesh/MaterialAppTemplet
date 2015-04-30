@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="AppTheme.Translucent" parent="@style/BaseAppTheme.Translucent"/>
+
+	<style name="AppTheme" parent="@style/BaseAppTheme"/>
+
+    <style name="BaseAppTheme.Translucent" parent="BaseAppTheme">
+	    <item name="android:windowBackground">@android:color/transparent</item>
+	    <item name="android:colorBackgroundCacheHint">@null</item>
+	    <item name="android:windowIsTranslucent">true</item>
+	</style>
+
+	<style name="BaseAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/blue_500</item>
+		<item name="colorPrimaryDark">@color/blue_800</item>
+		<item name="colorAccent">@color/accent_material_light</item>
+	</style>
+
+	<style name="AppTheme.NoActionBar" parent="@style/AppTheme">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+	<style name="AppTheme.NoActionBar.Translucent" parent="@style/AppTheme.Translucent">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+</resources>
